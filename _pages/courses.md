@@ -35,6 +35,10 @@ title: "Μαθήματα"
 
 {% include collection-sort.html i = 7 l = 'courses' %}
 
+## Η ΕΞΑΜΗΝΟ
+
+{% include collection-sort.html i = 8 l = 'courses' %}
+
 # ΜΕΤΑΠΤΥΧΙΑΚΟ
 
 ## A ΕΞΑΜΗΝΟ
@@ -44,3 +48,13 @@ title: "Μαθήματα"
 ## Β ΕΞΑΜΗΝΟ
 
 {% include collection-sort.html i = 2 l = 'msc' %}
+
+# ΜΕΤΑΠΤΥΧΙΑΚΟ - Ερευνητικές Κατευθύνσεις στην Πληροφορική
+
+## A ΕΞΑΜΗΝΟ
+
+{% include collection-sort.html i = 1 l = 'mscrdi' %}
+
+## Β ΕΞΑΜΗΝΟ
+
+{% include collection-sort.html i = 2 l = 'mscrdi' %}

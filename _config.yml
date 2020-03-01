@@ -248,6 +248,9 @@ collections:
   msc:
     output: true
     permalink: /msc/:path/
+  mscrdi:
+    output: true
+    permalink: /mscrdi/:path/
   groups:
     output: true
     permalink: /groups/:path/
@@ -304,6 +307,18 @@ defaults:
   - scope:
       path: ""
       type: msc
+    values:
+      sidebar: false
+      layout: courses
+      author_profile: true
+      read_time: false
+      comments: # true
+      share: false
+      related: false
+  # _mscrdi
+  - scope:
+      path: ""
+      type: mscrdi
     values:
       sidebar: false
       layout: courses
